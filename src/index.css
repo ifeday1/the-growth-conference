@@ -1,0 +1,186 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1a1a1a;
+  --color-ink-soft: #3a3a3a;
+  --color-paper: #ffffff;
+  --color-paper-warm: #fbfaf6;
+  --color-gold: #f3bd31;
+  --color-pink: #fb96ec;
+  --color-blue: #0047ff;
+  --color-cyan: #28d8ea;
+  --color-line: rgba(26, 26, 26, 0.1);
+
+  --font-sans: -apple-system, "Inter", "Segoe UI", sans-serif;
+  --font-display: "Archivo Black", "Arial Black", "Helvetica Neue", sans-serif;
+
+  --breakpoint-xs: 460px;
+  --breakpoint-nav: 820px;
+  --breakpoint-tab: 900px;
+}
+
+@layer base {
+  * {
+    @apply box-border m-0 p-0;
+  }
+  html {
+    @apply scroll-smooth text-base;
+  }
+  body {
+    @apply font-sans text-ink bg-paper-warm overflow-x-hidden antialiased;
+  }
+  h1, h2, h3, .display {
+    @apply font-display font-black uppercase tracking-[-0.01em];
+    line-height: 1.02;
+  }
+  p, li, a, button, input {
+    @apply font-sans;
+  }
+  a {
+    @apply text-inherit no-underline;
+  }
+  img {
+    @apply max-w-full block;
+  }
+  button {
+    font: inherit;
+  }
+  section {
+    @apply relative py-[70px] sm:py-[100px];
+  }
+}
+
+@layer components {
+  .wrap {
+    @apply max-w-[1180px] mx-auto px-5 sm:px-7;
+  }
+
+  .eyebrow {
+    @apply relative inline-flex items-center gap-2 font-sans font-bold text-[0.72rem] tracking-[0.16em] uppercase text-blue;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply inline-block w-[18px] h-0.5 bg-blue;
+  }
+
+  .slashes {
+    @apply inline-flex gap-[5px] items-end;
+  }
+  .slashes span {
+    @apply inline-block w-1.5 h-[22px] skew-x-[-18deg] rounded-sm;
+  }
+  .slashes.sm span {
+    @apply w-1 h-3.5;
+  }
+  .slashes span:nth-child(1) {
+    @apply bg-pink;
+  }
+  .slashes span:nth-child(2) {
+    @apply bg-gold;
+  }
+  .slashes span:nth-child(3) {
+    @apply bg-blue;
+  }
+
+  .section-head {
+    @apply max-w-[640px] mb-9 sm:mb-14;
+  }
+  .section-head h2 {
+    @apply mt-3.5 text-[clamp(2rem,4.4vw,3rem)];
+  }
+  .section-head p {
+    @apply text-ink-soft text-[1.05rem] mt-4 leading-[1.6];
+  }
+
+  .divider {
+    @apply h-0.5 bg-line mx-auto max-w-[1180px];
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 font-extrabold text-[0.85rem] tracking-[0.01em] py-3.5 px-6 rounded-full border-2 border-transparent cursor-pointer uppercase transition-[transform,box-shadow,background] duration-200;
+  }
+  .btn-primary {
+    @apply bg-ink text-white;
+  }
+  .btn-primary:hover {
+    @apply -translate-y-0.5 shadow-[0_10px_24px_rgba(0,0,0,0.25)];
+  }
+  .btn-outline {
+    @apply border-ink text-ink bg-transparent;
+  }
+  .btn-outline:hover {
+    @apply bg-ink text-white;
+  }
+  .btn-light {
+    @apply bg-white text-ink;
+  }
+  .btn-light:hover {
+    @apply -translate-y-0.5 shadow-[0_10px_24px_rgba(0,0,0,0.35)];
+  }
+  .btn-blue {
+    @apply bg-blue text-white;
+  }
+  .btn-blue:hover {
+    @apply -translate-y-0.5 shadow-[0_10px_24px_rgba(0,71,255,0.35)];
+  }
+
+  .reveal {
+    @apply opacity-0 translate-y-6 transition-[opacity,transform] duration-700 ease-out;
+  }
+  .reveal.in {
+    @apply opacity-100 translate-y-0;
+  }
+
+  /* mobile menu open state, coordinated between Nav and StickyRegister via <body> */
+  body.menu-open {
+    @apply overflow-hidden;
+  }
+  body.menu-open .sticky-register {
+    @apply hidden;
+  }
+}
+
+@keyframes grow {
+  to {
+    transform: scaleY(1);
+  }
+}
+@keyframes breathe {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.1);
+  }
+}
+@keyframes heroIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes floaty {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
