@@ -22,6 +22,10 @@ const TESTIMONIALS = [
     quote: "\"I attended the first and second edition and it was so insightful — the organization was top notch. The speakers really spoke to my soul, and I've been able to see my potential and make good use of it.\"",
     initial: 'G', color: 'var(--color-gold)', name: 'Greatness Olanrewaju', role: 'Graduate, Ibadan',
   },
+  {
+    quote: '"With the privilege of serving as a volunteer for Growth Conference 1.0 & 2.0; it gave me an added advantage of gaining understanding & experience into operations of the corporate world. It served as a motivating factor to strive for growth in career, excellence & character."',
+    initial: 'P', color: 'var(--color-pink)', name: 'Praise Fadare', role: 'NYSC Member, Ilorin',
+  },
 ]
 
 const AUTO_ADVANCE_MS = 6000

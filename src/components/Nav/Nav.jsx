@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import useScrollSpy from '../../hooks/useScrollSpy'
-import logoMain from '../../assets/images/logo-main.png'
+import logoMain from '../../assets/images/logo-main-white.png'
 
 const LINKS = [
   { href: 'about', label: 'About' },

@@ -1,12 +1,12 @@
 import Reveal from '../Reveal'
 
 const ITEMS = [
-  { label: 'GC 2024 · Keynote', gradient: 'linear-gradient(135deg,var(--color-pink),#ffd6f6)', span: 'col-span-2 row-span-2' },
-  { label: 'GC 2025 · Networking', gradient: 'linear-gradient(135deg,var(--color-gold),#ffe58a)', span: '' },
-  { label: 'GC 2025 · Awards', gradient: 'linear-gradient(135deg,var(--color-blue),#7da3ff)', span: '' },
-  { label: 'GC 2024 · Crowd', gradient: 'linear-gradient(135deg,var(--color-ink),#4a4a4a)', span: 'row-span-2' },
-  { label: 'GC 2025 · Panel', gradient: 'linear-gradient(135deg,var(--color-cyan),#a6f1fb)', span: '' },
-  { label: 'GC 2024 · Mentorship', gradient: 'linear-gradient(135deg,#4a4a4a,var(--color-ink))', span: 'col-span-2' },
+  { label: 'GC 2.0 · Keynote', src: '/gallery/gc2-keynote.jpg', span: 'col-span-2 row-span-2' },
+  { label: 'GC 2.0 · Networking', src: '/gallery/gc2-networking.jpg', span: '' },
+  { label: 'GC 2.0 · Team', src: '/gallery/gc2-team.jpg', span: '' },
+  { label: 'GC 1.0 · Awards', src: '/gallery/gc1-awards.jpg', span: 'row-span-2' },
+  { label: 'GC 2.0 · Speaker', src: '/gallery/gc2-speaker.jpg', span: '' },
+  { label: 'GC 1.0 · Crowd', src: '/gallery/gc1-crowd.jpg', span: 'col-span-2' },
 ]
 
 export default function Gallery() {
@@ -16,7 +16,7 @@ export default function Gallery() {
         <Reveal as="div" className="section-head">
           <span className="eyebrow">Gallery</span>
           <h2>Moments from GC 2024 & 2025</h2>
-          <p>Photo and video recaps are being curated — check back soon, or follow along on Instagram for the full archive.</p>
+          <p>A look back at GC 1.0 and 2.0 — follow along on Instagram for the full archive.</p>
         </Reveal>
 
         <Reveal
@@ -25,11 +25,16 @@ export default function Gallery() {
         >
           {ITEMS.map((item, i) => (
             <div
-              className={`rounded-[14px] relative overflow-hidden flex items-end p-3.5 transition-transform duration-350 ease-out hover:scale-[1.03] group-[.in]:animate-[fadeUp_0.6s_ease_backwards] ${item.span}`}
+              className={`rounded-[14px] relative overflow-hidden transition-transform duration-350 ease-out hover:scale-[1.03] group-[.in]:animate-[fadeUp_0.6s_ease_backwards] ${item.span}`}
               key={item.label}
-              style={{ background: item.gradient, animationDelay: `${i * 0.07}s` }}
+              style={{ animationDelay: `${i * 0.07}s` }}
             >
-              <span className="text-white text-[0.72rem] font-bold opacity-85 uppercase tracking-wider">{item.label}</span>
+              <img
+                src={item.src}
+                alt={item.label}
+                loading="lazy"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
             </div>
           ))}
         </Reveal>
