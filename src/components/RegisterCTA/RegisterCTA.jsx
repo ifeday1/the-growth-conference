@@ -12,7 +12,14 @@ export default function RegisterCTA() {
           </div>
           <h2 className="text-[clamp(2rem,5vw,3.4rem)]">Ready to grow?</h2>
           <p className="mt-4.5 mb-8.5 mx-auto max-w-115 opacity-85 text-[1.05rem]">Join over 1,500 ambitious young people for a transformational experience at Growth Conference 3.0.</p>
-          <a href="#" className="btn btn-light">Get Your Ticket Here</a>
+          <a
+            href="https://tix.africa/discover/growthconference"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-light"
+          >
+            Get Your Ticket Here
+          </a>
         </Reveal>
       </div>
     </section>

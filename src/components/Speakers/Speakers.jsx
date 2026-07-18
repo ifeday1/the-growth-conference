@@ -30,7 +30,7 @@ export default function Speakers() {
           <h2>Speaker lineup dropping soon</h2>
           <p>
             Growth Conference 3.0 will feature founders, executives, and changemakers from across
-            Nigeria's leadership and innovation scene. Follow us on Instagram — every reveal lands
+            Nigeria's leadership and innovation scene. Follow us on Instagram every reveal lands
             there first.
           </p>
         </Reveal>

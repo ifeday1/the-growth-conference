@@ -30,7 +30,12 @@ export default function Location() {
               No dress code — smart casual or business casual is recommended. Bring your virtual
               ticket or QR code on your phone; no printing required.
             </p>
-            <a href="#register" className="btn btn-outline self-start">
+            <a
+              href="https://tix.africa/discover/growthconference"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline self-start"
+            >
               Get My Ticket
             </a>
           </div>

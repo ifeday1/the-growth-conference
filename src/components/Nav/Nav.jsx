@@ -65,7 +65,12 @@ export default function Nav() {
               </a>
             ))}
           </nav>
-          <a href="#register" className="btn btn-primary hidden nav:inline-flex whitespace-nowrap">
+          <a
+            href="https://tix.africa/discover/growthconference"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary hidden nav:inline-flex whitespace-nowrap"
+          >
             Register Now
           </a>
           <button
@@ -114,7 +119,13 @@ export default function Nav() {
         </nav>
         <div className="flex items-center justify-between gap-5 flex-col-reverse items-stretch xs:flex-row xs:items-center">
           <div className="slashes self-center xs:self-auto"><span></span><span></span><span></span></div>
-          <a href="#register" className="btn btn-blue flex-1" onClick={() => setMenuOpen(false)}>
+          <a
+            href="https://tix.africa/discover/growthconference"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-blue flex-1"
+            onClick={() => setMenuOpen(false)}
+          >
             Register Now
           </a>
         </div>

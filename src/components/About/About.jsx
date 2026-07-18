@@ -28,7 +28,7 @@ export default function About() {
             <img src={logoTei} alt="The Eben Initiative" className="h-[34px] w-auto mb-5.5" />
             <p className="text-ink-soft leading-[1.7] text-base">
               Hosted by <b>The Eben Initiative (TEI)</b>, Growth Conference exists to empower and
-              equip young leaders and professionals to harness their God-given potential — with
+              equip young leaders and professionals to harness their God-given potential with
               the mindset, skills, opportunities, and networks required to thrive in an
               increasingly competitive world.
             </p>

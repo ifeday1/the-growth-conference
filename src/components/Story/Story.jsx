@@ -24,7 +24,7 @@ export default function Story() {
               <div className="text-ink-soft italic mt-0.5 text-[0.92rem]">"Ignite Passion. Drive Change. Shape the Future."</div>
               <p className="text-ink-soft mt-3.5 leading-[1.6] text-[0.95rem]">
                 The inaugural edition established the foundation of what Growth Conference would
-                become — bringing together students, graduates, young professionals, and aspiring
+                become bringing together students, graduates, young professionals, and aspiring
                 leaders for impactful conversations around leadership, career development,
                 innovation, and personal growth.
               </p>
@@ -71,7 +71,7 @@ export default function Story() {
               </div>
               <div className="text-ink-soft italic mt-0.5 text-[0.92rem]">Saturday, 3rd October 2026 · University of Ibadan</div>
               <p className="text-ink-soft mt-3.5 leading-[1.6] text-[0.95rem]">
-                The third edition arrives with our biggest room yet — 1,500+ young leaders, more
+                The third edition arrives with our biggest room yet 1,500+ young leaders, more
                 speakers, and a sharper opportunity marketplace. Theme reveal coming soon.
               </p>
             </div>
