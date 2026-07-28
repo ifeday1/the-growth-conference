@@ -29,7 +29,7 @@ export default function Speakers() {
           <span className="eyebrow">On stage</span>
           <h2>Speaker lineup dropping soon</h2>
           <p>
-            Growth Conference 3.0 will feature founders, executives, and changemakers from across
+            Growth Conference 3.0 will feature founders, executives, and change makers from across
             Nigeria's leadership and innovation scene. Follow us on Instagram every reveal lands
             there first.
           </p>

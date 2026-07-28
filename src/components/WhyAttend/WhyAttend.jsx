@@ -1,15 +1,55 @@
 import Reveal from '../Reveal'
 
 const ITEMS = [
-  { n: '01', color: 'var(--color-pink)', title: 'Career clarity', text: 'Inspiring keynotes and career development sessions built for where you are right now.' },
-  { n: '02', color: 'var(--color-gold)', title: 'Leadership insight', text: 'Real conversations on leadership, from people leading in the rooms you want to be in.' },
-  { n: '03', color: 'var(--color-blue)', title: 'A real network', text: 'Deliberate networking opportunities — not just a badge and a handshake.' },
-  { n: '04', color: 'var(--color-cyan)', title: 'Opportunity marketplace', text: 'Jobs, gigs, fellowships, and partnerships surfaced directly to attendees.' },
-  { n: '05', color: 'var(--color-ink)', title: 'Mentorship', text: "Direct access to mentors who've walked the path you're starting on." },
-  { n: '06', color: 'var(--color-pink)', title: 'Business growth', text: 'Innovation and entrepreneurship discussions with practical, usable strategy.' },
-  { n: '07', color: 'var(--color-gold)', title: 'A community', text: "Growth-minded young people who'll still be in your corner after Oct 3." },
-  { n: '08', color: 'var(--color-blue)', title: 'Momentum', text: 'Leave with a plan, not just notes — and people to hold you to it.' },
-]
+  {
+    n: '01',
+    color: 'var(--color-pink)',
+    title: 'Career clarity',
+    text: 'Inspiring keynotes and career development sessions built for where you are right now.',
+  },
+  {
+    n: '02',
+    color: 'var(--color-gold)',
+    title: 'Leadership insight',
+    text: 'Real conversations on leadership, from people leading in the rooms you want to be in.',
+  },
+  {
+    n: '03',
+    color: 'var(--color-blue)',
+    title: 'A real network',
+    text: 'Deliberate networking opportunities — not just a badge and a handshake.',
+  },
+  {
+    n: '04',
+    color: 'var(--color-cyan)',
+    title: 'Opportunity marketplace',
+    text: 'Jobs, gigs, fellowships, and partnerships surfaced directly to attendees.',
+  },
+  {
+    n: '05',
+    color: 'var(--color-ink)',
+    title: 'Mentorship',
+    text: "Direct access to mentors who've walked the path you're starting on.",
+  },
+  {
+    n: '06',
+    color: 'var(--color-pink)',
+    title: 'Business growth',
+    text: 'Innovation and entrepreneurship discussions with practical, usable strategy.',
+  },
+  {
+    n: '07',
+    color: 'var(--color-gold)',
+    title: 'A community',
+    text: "Growth-minded young people who'll still be in your corner after after the event.",
+  },
+  {
+    n: '08',
+    color: 'var(--color-blue)',
+    title: 'Momentum',
+    text: 'Leave with a plan, not just notes — and people to hold you to it.',
+  },
+];
 
 export default function WhyAttend() {
   return (

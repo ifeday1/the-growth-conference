@@ -6,7 +6,7 @@ import badge30 from '../../assets/images/badge-3-0.png';
 export default function Hero() {
   return (
     <section
-      className='relative bg-ink text-white pt-[120px] pb-[60px] sm:pt-[150px] sm:pb-[90px] overflow-hidden'
+      className='relative z-10 bg-ink text-white pt-[120px] pb-[60px] sm:pt-[150px] sm:pb-[90px] overflow-x-hidden'
       id='top'
     >
       <GrowthBars />
@@ -20,14 +20,15 @@ export default function Hero() {
 
         <h1 className='text-[clamp(2.6rem,7.4vw,5.6rem)] mt-1.5 mb-[22px]'>
           More than a<br />
-          <span className='text-pink'>conference.</span>
+          <span className='text-pink'>conference-</span>
           <br />A <span className='text-gold'>movement</span>
           <span className='text-blue'>.</span>
         </h1>
 
         <p className='text-[clamp(1rem,2vw,1.25rem)] text-white/72 max-w-[560px] mb-10 leading-[1.5]'>
-          A global community of ethical, innovative, and impact-driven young
-          leaders built one conference at a time. Join us for the third edition.
+          Building a global community of ethical, innovative, and impact-driven
+          young leaders—one conference at a time. Welcome to Growth Conference
+          3.0. Welcome to NEW HORIZONS
         </p>
 
         <div className='flex gap-4 flex-wrap mb-14 flex-col items-stretch xs:flex-row xs:items-center [&_.btn]:text-[0.76rem] [&_.btn]:py-[13px] [&_.btn]:px-5 sm:[&_.btn]:text-[0.85rem] sm:[&_.btn]:py-3.5 sm:[&_.btn]:px-[26px] [&_.btn]:w-full xs:[&_.btn]:w-auto'>
