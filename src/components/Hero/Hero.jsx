@@ -6,7 +6,7 @@ import badge30 from '../../assets/images/badge-3-0.png';
 export default function Hero() {
   return (
     <section
-      className='relative z-10 bg-ink text-white pt-[120px] pb-[60px] sm:pt-[150px] sm:pb-[90px] overflow-x-hidden'
+      className='relative z-10 bg-ink text-white pt-[120px] pb-[60px] sm:pt-[150px] sm:pb-[90px] overflow-x-clip'
       id='top'
     >
       <GrowthBars />
