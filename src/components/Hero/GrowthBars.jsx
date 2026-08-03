@@ -33,7 +33,7 @@ export default function GrowthBars() {
   }, [])
 
   return (
-    <div className="absolute inset-0 z-0 opacity-[0.22] sm:opacity-[0.35] flex items-end justify-between gap-[clamp(4px,1.1vw,12px)] px-[4%]">
+    <div className="absolute inset-0 z-0 opacity-[0.1] sm:opacity-[0.16] flex items-end justify-between gap-[clamp(4px,1.1vw,12px)] px-[4%]">
       {bars.map((bar) => (
         <span
           key={bar.key}

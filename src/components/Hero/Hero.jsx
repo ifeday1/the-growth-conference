@@ -6,29 +6,41 @@ import badge30 from '../../assets/images/badge-3-0.png';
 export default function Hero() {
   return (
     <section
-      className='relative z-10 bg-ink text-white pt-[120px] pb-[60px] sm:pt-[150px] sm:pb-[90px] overflow-x-clip'
+      className='relative z-10 bg-[#111111] text-white pt-[120px] pb-[60px] sm:pt-[150px] sm:pb-[90px] overflow-x-clip'
       id='top'
     >
       <GrowthBars />
       <div className='wrap relative z-2 [&>*]:opacity-0 [&>*]:translate-y-4 [&>*]:[animation:heroIn_0.8s_cubic-bezier(.2,.9,.25,1)_forwards] [&>*:nth-child(1)]:[animation-delay:.15s] [&>*:nth-child(2)]:[animation-delay:.28s] [&>*:nth-child(3)]:[animation-delay:.40s] [&>*:nth-child(4)]:[animation-delay:.52s] [&>*:nth-child(5)]:[animation-delay:.64s] [&>*:nth-child(6)]:[animation-delay:.74s]'>
         <div className='flex items-center gap-3.5 flex-wrap mb-[26px]'>
           <span className='eyebrow text-gold'>
-            The Eben Initiative Presents
+            Welcome to Growth Conference 2026
           </span>
           <img src={badge30} alt='3.0' className='h-[26px] w-auto' />
         </div>
 
         <h1 className='text-[clamp(2.6rem,7.4vw,5.6rem)] mt-1.5 mb-[22px]'>
-          More than a<br />
-          <span className='text-pink'>conference-</span>
-          <br />A <span className='text-gold'>movement</span>
+          New <span className='text-pink'>Horizons.</span>
+          <br />
+          Endless <span className='text-gold'>possibilities</span>
           <span className='text-blue'>.</span>
         </h1>
 
+        <p className='text-[clamp(1rem,2vw,1.25rem)] text-white/72 max-w-[560px] mb-6 leading-[1.5]'>
+          Where potential meets opportunity, ideas become action, and
+          ambitious young people are equipped to step boldly into what lies
+          ahead.
+        </p>
+
+        <p className='text-[clamp(1rem,2vw,1.25rem)] text-white/72 max-w-[560px] mb-6 leading-[1.5]'>
+          Growth Conference 2026 is more than a conference—it is a movement
+          bringing together students, graduates, young professionals,
+          entrepreneurs, innovators, and emerging leaders to learn, connect,
+          discover opportunities, and unlock new possibilities.
+        </p>
+
         <p className='text-[clamp(1rem,2vw,1.25rem)] text-white/72 max-w-[560px] mb-10 leading-[1.5]'>
-          Building a global community of ethical, innovative, and impact-driven
-          young leaders—one conference at a time. Welcome to Growth Conference
-          3.0. Welcome to NEW HORIZONS
+          This is your invitation to look beyond where you are, embrace what
+          is possible, and step confidently into your New Horizon.
         </p>
 
         <div className='flex gap-4 flex-wrap mb-14 flex-col items-stretch xs:flex-row xs:items-center [&_.btn]:text-[0.76rem] [&_.btn]:py-[13px] [&_.btn]:px-5 sm:[&_.btn]:text-[0.85rem] sm:[&_.btn]:py-3.5 sm:[&_.btn]:px-[26px] [&_.btn]:w-full xs:[&_.btn]:w-auto'>

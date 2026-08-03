@@ -4,6 +4,7 @@ import Stats from './components/Stats/Stats'
 import About from './components/About/About'
 import WhyAttend from './components/WhyAttend/WhyAttend'
 import Story from './components/Story/Story'
+import Convener from './components/Convener/Convener'
 import Speakers from './components/Speakers/Speakers'
 import Testimonials from './components/Testimonials/Testimonials'
 import Gallery from './components/Gallery/Gallery'
@@ -23,6 +24,7 @@ export default function App() {
       <About />
       <WhyAttend />
       <Story />
+      <Convener />
       <Speakers />
       <Testimonials />
       <Gallery />

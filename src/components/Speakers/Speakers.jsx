@@ -26,12 +26,13 @@ export default function Speakers() {
     <section id="speakers">
       <div className="wrap">
         <Reveal as="div" className="section-head">
-          <span className="eyebrow">On stage</span>
-          <h2>Speaker lineup dropping soon</h2>
+          <span className="eyebrow">Speaker lineup</span>
+          <h2>Meet the voices shaping New Horizons</h2>
           <p>
-            Growth Conference 3.0 will feature founders, executives, and change makers from across
-            Nigeria's leadership and innovation scene. Follow us on Instagram every reveal lands
-            there first.
+            Meet the inspiring speakers and industry leaders joining us at Growth Conference 2026.
+            Bringing together diverse experiences, expertise, and stories, our speakers will share
+            insights designed to challenge your thinking, expand your perspective, and equip you
+            for the journey ahead.
           </p>
         </Reveal>
 
