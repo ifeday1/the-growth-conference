@@ -25,22 +25,11 @@ export default function Hero() {
           <span className='text-blue'>.</span>
         </h1>
 
-        <p className='text-[clamp(1rem,2vw,1.25rem)] text-white/72 max-w-[560px] mb-6 leading-[1.5]'>
-          Where potential meets opportunity, ideas become action, and
-          ambitious young people are equipped to step boldly into what lies
-          ahead.
-        </p>
-
-        <p className='text-[clamp(1rem,2vw,1.25rem)] text-white/72 max-w-[560px] mb-6 leading-[1.5]'>
-          Growth Conference 2026 is more than a conference—it is a movement
-          bringing together students, graduates, young professionals,
-          entrepreneurs, innovators, and emerging leaders to learn, connect,
-          discover opportunities, and unlock new possibilities.
-        </p>
-
         <p className='text-[clamp(1rem,2vw,1.25rem)] text-white/72 max-w-[560px] mb-10 leading-[1.5]'>
-          This is your invitation to look beyond where you are, embrace what
-          is possible, and step confidently into your New Horizon.
+          Growth Conference 2026 is a movement bringing together students,
+          graduates, young professionals, entrepreneurs, innovators, and
+          emerging leaders to learn, connect, discover opportunities, and
+          unlock new possibilities.
         </p>
 
         <div className='flex gap-4 flex-wrap mb-14 flex-col items-stretch xs:flex-row xs:items-center [&_.btn]:text-[0.76rem] [&_.btn]:py-[13px] [&_.btn]:px-5 sm:[&_.btn]:text-[0.85rem] sm:[&_.btn]:py-3.5 sm:[&_.btn]:px-[26px] [&_.btn]:w-full xs:[&_.btn]:w-auto'>

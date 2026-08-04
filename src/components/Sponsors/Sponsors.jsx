@@ -5,8 +5,19 @@ export default function Sponsors() {
     <section id="sponsors" className="bg-paper-warm">
       <div className="wrap">
         <Reveal as="div" className="section-head">
-          <span className="eyebrow">Sponsors & partners</span>
-          <h2>Backed by organizations who believe in youth</h2>
+          <span className="eyebrow">Become a partner</span>
+          <h2>Let's build New Horizons together.</h2>
+          <p>
+            On 3rd October 2026, we will bring together 1,500+ young people at the University of
+            Ibadan for a transformative experience centered on leadership, career development,
+            innovation, entrepreneurship, networking, and access to opportunities.
+          </p>
+          <p className="mt-3.5">But we cannot do this alone.</p>
+          <p className="mt-3.5">
+            We are inviting organizations, brands, institutions, and individuals who share our
+            vision for a more empowered generation to partner with us in creating meaningful
+            opportunities for young people.
+          </p>
         </Reveal>
 
         <Reveal as="div" className="flex flex-wrap gap-4">
@@ -23,11 +34,20 @@ export default function Sponsors() {
         <Reveal as="div" className="mt-8.5 flex items-center justify-between flex-wrap gap-5 bg-white border border-line rounded-[18px] p-6.5 sm:p-[30px_34px]">
           <div>
             <h3 className="font-sans font-extrabold text-[1.15rem] normal-case">
-              Partner with Growth Conference 3.0
+              Partner with Growth Conference 2026
             </h3>
-            <p className="text-ink-soft max-w-105 mt-2">We welcome organizations and individuals who share our vision for youth development, in front of 1,500+ engaged young leaders.</p>
+            <p className="text-ink-soft max-w-105 mt-2">
+              Download our partnership proposal for the full breakdown of packages, benefits, and
+              ways to get involved.
+            </p>
           </div>
-          <a href="mailto:growthconferencetei@gmail.com" className="btn btn-primary">Become a Partner</a>
+          <a
+            href="/files/Growth-Conference-2026-Partnership-Proposal.pdf"
+            download
+            className="btn btn-primary"
+          >
+            Explore Partnership Opportunities
+          </a>
         </Reveal>
       </div>
     </section>
