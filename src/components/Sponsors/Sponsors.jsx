@@ -8,16 +8,19 @@ export default function Sponsors() {
           <span className="eyebrow">Become a partner</span>
           <h2>Let's build New Horizons together.</h2>
           <p>
-            On 3rd October 2026, we will bring together 1,500+ young people at the University of
-            Ibadan for a transformative experience centered on leadership, career development,
-            innovation, entrepreneurship, networking, and access to opportunities.
+            We're grateful to the organizations and brands partnering with Growth Conference 2026
+            to invest in the next generation of leaders.
           </p>
-          <p className="mt-3.5">But we cannot do this alone.</p>
           <p className="mt-3.5">
-            We are inviting organizations, brands, institutions, and individuals who share our
-            vision for a more empowered generation to partner with us in creating meaningful
-            opportunities for young people.
+            Their support is helping create an unforgettable experience for 1,500+ young people
+            through inspiring conversations, practical learning, networking, and career
+            opportunities.
           </p>
+          <p className="mt-3.5">
+            As our impact grows, we're opening the door for more visionary partners to join us in
+            shaping the future of Africa's young leaders.
+          </p>
+          <p className="mt-3.5 font-bold text-ink">Partner with us. Create lasting impact.</p>
         </Reveal>
 
         <Reveal as="div" className="flex flex-wrap gap-4">

@@ -83,9 +83,24 @@ export default function Story() {
                 Saturday, 3rd October 2026 · University of Ibadan
               </div>
               <p className='text-ink-soft mt-3.5 leading-[1.6] text-[0.95rem]'>
-                The third edition arrives with our biggest room yet 1,500+ young
-                leaders, more speakers, and a sharper opportunity marketplace.
-                Theme reveal coming soon.
+                Building on the foundation of Unlocking Potential in 2024 and the call to
+                Emerge in 2025, Growth Conference 3.0 invites young people to look beyond
+                where they are and confidently embrace the possibilities ahead.
+              </p>
+              <p className='text-ink-soft mt-3.5 leading-[1.6] text-[0.95rem]'>Again, we bring;</p>
+              <ul className='mt-4 pl-4.5 text-ink-soft text-[0.92rem] leading-[1.7] list-disc'>
+                <li>Transformative conversations</li>
+                <li>Career development sessions</li>
+                <li>Leadership experiences</li>
+                <li>Networking opportunities</li>
+                <li>Access to new opportunities</li>
+              </ul>
+              <p className='text-ink-soft mt-3.5 leading-[1.6] text-[0.95rem]'>
+                Participants will be equipped to explore new paths, pursue bigger
+                possibilities, and step boldly into their next chapter.
+              </p>
+              <p className='text-ink-soft mt-3.5 leading-[1.6] text-[0.95rem] font-bold'>
+                Growth is never meant to stop where you are. There is always another horizon.
               </p>
             </div>
           </Reveal>
