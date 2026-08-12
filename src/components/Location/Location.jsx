@@ -24,10 +24,10 @@ export default function Location() {
             <p className="text-ink-soft leading-[1.7] mb-5.5">
               Growth Conference 2026 is happening at Alumni Hall, University of Ibadan, Ibadan,
               Oyo State. Check the map below, find your way to the venue, and get ready to step
-              into a day filled with new ideas, new connections, and New Horizons.
+              into a day filled with new ideas, new connections and New Horizons.
             </p>
             <p className="text-ink-soft leading-[1.7] mb-5.5 -mt-2.5">
-              Come dressed in smart and comfortable attire ready to learn, connect, and make the
+              Come dressed in smart and comfortable attire ready to learn, connect and make the
               most of the experience.
             </p>
             <p className="text-ink-soft leading-[1.7] mb-5.5 -mt-2.5">

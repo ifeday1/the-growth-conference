@@ -13,7 +13,7 @@ export default function Sponsors() {
           </p>
           <p className="mt-3.5">
             Their support is helping create an unforgettable experience for 1,500+ young people
-            through inspiring conversations, practical learning, networking, and career
+            through inspiring conversations, practical learning, networking and career
             opportunities.
           </p>
           <p className="mt-3.5">
@@ -40,7 +40,7 @@ export default function Sponsors() {
               Partner with Growth Conference 2026
             </h3>
             <p className="text-ink-soft max-w-105 mt-2">
-              Download our partnership proposal for the full breakdown of packages, benefits, and
+              Download our partnership proposal for the full breakdown of packages, benefits and
               ways to get involved.
             </p>
           </div>

@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <img src={logoWhite} alt="Growth Conference" className="h-6.5 mb-4" />
             <p className="text-white/55 text-[0.9rem] leading-[1.6] max-w-70">
-              Growth Conference is a movement built to inspire, equip, connect, and empower young
+              Growth Conference is an event built to inspire, equip, connect and empower young
               leaders across Nigeria and beyond. Hosted by The Eben Initiative.
             </p>
           </div>

@@ -19,16 +19,15 @@ export default function Hero() {
         </div>
 
         <h1 className='text-[clamp(2.6rem,7.4vw,5.6rem)] mt-1.5 mb-[22px]'>
-          New <span className='text-pink'>Horizons.</span>
+          New <span className='text-pink'>Horizons-</span>
           <br />
           Endless <span className='text-gold'>possibilities</span>
-          <span className='text-blue'>.</span>
         </h1>
 
         <p className='text-[clamp(1rem,2vw,1.25rem)] text-white/72 max-w-[560px] mb-10 leading-[1.5]'>
-          Growth Conference 2026 is a movement bringing together students,
-          graduates, young professionals, entrepreneurs, innovators, and
-          emerging leaders to learn, connect, discover opportunities, and
+          Growth Conference 2026 is an event bringing together students,
+          graduates, young professionals, entrepreneurs, innovators and
+          emerging leaders to learn, connect, discover opportunities and
           unlock new possibilities.
         </p>
 

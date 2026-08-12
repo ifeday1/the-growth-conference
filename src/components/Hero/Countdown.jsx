@@ -31,7 +31,7 @@ export default function Countdown() {
       <div
         className={`${boxClass} basis-full xs:basis-auto border-gold/40 bg-gold/8`}
       >
-        <span className={`${numClass} text-gold`}>3rd October</span>
+        <span className={`${numClass} text-gold`}>3rd October 2026</span>
       </div>
     </div>
   );

@@ -9,19 +9,19 @@ export default function Stats() {
       <div className="wrap flex justify-start sm:justify-between flex-wrap gap-7 sm:gap-6">
         <div className="flex-1 min-w-[140px]">
           <CountUp to={1500} suffix="+" className="text-gold" />
-          <div className={lblClass}>Expected attendees</div>
+          <div className={lblClass}>Expected Attendees</div>
         </div>
         <div className="flex-1 min-w-[140px]">
           <CountUp to={3} suffix="rd" className="text-pink" />
-          <div className={lblClass}>Annual edition</div>
+          <div className={lblClass}>Annual Edition</div>
         </div>
         <div className="flex-1 min-w-[140px]">
           <div className={`${numClass} text-cyan`}>Free</div>
-          <div className={lblClass}>To attend</div>
+          <div className={lblClass}>To Attend</div>
         </div>
         <div className="flex-1 min-w-[140px]">
           <div className={`${numClass} text-white`}>UI</div>
-          <div className={lblClass}>University of Ibadan</div>
+          <div className={lblClass}>Alumni Hall, UI, Ibadan</div>
         </div>
       </div>
     </div>

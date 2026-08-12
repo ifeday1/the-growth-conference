@@ -7,7 +7,7 @@ export default function About() {
       <div className="wrap">
         <div className="grid grid-cols-1 tab:grid-cols-2 gap-9 tab:gap-[70px] items-center">
           <Reveal>
-            <span className="eyebrow">About the movement</span>
+            <span className="eyebrow">About the event</span>
             <h2 className="mt-3.5">
               Talent is everywhere.<br />
               Access <span className="text-pink">isn't.</span>
@@ -16,7 +16,7 @@ export default function About() {
               Growth Conference was born from a simple but urgent reality: thousands of talented
               young people possess immense potential but lack access to the knowledge, exposure,
               mentorship, and communities needed to maximize it. Our vision is to build a global
-              community of ethical, innovative, influential, and impact-driven young leaders
+              community of ethical, innovative, influential and impact-driven young leaders
               committed to transforming society.
             </p>
             <div className="slashes mt-7">
@@ -29,13 +29,13 @@ export default function About() {
             <p className="text-ink-soft leading-[1.7] text-base">
               Hosted by <b>The Eben Initiative (TEI)</b>, Growth Conference exists to empower and
               equip young leaders and professionals to harness their God-given potential with
-              the mindset, skills, opportunities, and networks required to thrive in an
+              the mindset, skills, opportunities and networks required to thrive in an
               increasingly competitive world.
             </p>
             <p className="text-ink-soft leading-[1.7] text-base mt-3.5">
               Since 2024, Growth Conference has brought together students, graduates, young
               professionals, entrepreneurs and industry leaders for transformational conversations
-              that spark growth, build careers, and create lasting impact.
+              that spark growth, build careers and create lasting impact.
             </p>
           </Reveal>
         </div>

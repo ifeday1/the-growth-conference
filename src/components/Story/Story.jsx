@@ -6,7 +6,7 @@ export default function Story() {
       <div className='wrap'>
         <Reveal as='div' className='section-head'>
           <span className='eyebrow'>The growth conference story</span>
-          <h2>Three years - One movement.</h2>
+          <h2>Three years-One event.</h2>
         </Reveal>
 
         <div className='relative'>
@@ -30,8 +30,8 @@ export default function Story() {
               <p className='text-ink-soft mt-3.5 leading-[1.6] text-[0.95rem]'>
                 The inaugural edition established the foundation of what Growth
                 Conference would become bringing together students, graduates,
-                young professionals, and aspiring leaders for impactful
-                conversations around leadership, career development, innovation,
+                young professionals and aspiring leaders for impactful
+                conversations around leadership, career development, innovation
                 and personal growth.
               </p>
             </div>
@@ -97,7 +97,7 @@ export default function Story() {
               </ul>
               <p className='text-ink-soft mt-3.5 leading-[1.6] text-[0.95rem]'>
                 Participants will be equipped to explore new paths, pursue bigger
-                possibilities, and step boldly into their next chapter.
+                possibilities and step boldly into their next chapter.
               </p>
               <p className='text-ink-soft mt-3.5 leading-[1.6] text-[0.95rem] font-bold'>
                 Growth is never meant to stop where you are. There is always another horizon.

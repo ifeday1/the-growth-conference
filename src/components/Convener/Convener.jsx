@@ -20,7 +20,7 @@ export default function Convener() {
 
           <Reveal>
             <span className="eyebrow">Meet the convener</span>
-            <h2 className="mt-3.5">The vision behind the movement</h2>
+            <h2 className="mt-3.5">The vision behind the event</h2>
             <p className="text-ink-soft mt-5 leading-[1.7] text-[1.05rem]">
               Growth Conference was born from a conviction that young people do not lack
               potential, they need access to the right knowledge, mentors, networks, and
@@ -33,8 +33,8 @@ export default function Convener() {
             <p className="text-ink-soft mt-3.5 leading-[1.7] text-[1.05rem]">
               Through Growth Conference and the broader work of The Eben Initiative, he is
               committed to creating platforms that inspire young people, equip them with
-              relevant knowledge and skills, connect them to meaningful opportunities, and
-              empower them to become ethical leaders, innovators, and changemakers.
+              relevant knowledge and skills, connect them to meaningful opportunities and
+              empower them to become ethical leaders, innovators and changemakers.
             </p>
             <div className="slashes mt-7">
               <span></span><span></span><span></span>
