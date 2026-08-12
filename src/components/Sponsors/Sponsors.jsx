@@ -1,4 +1,9 @@
 import Reveal from '../Reveal'
+import askTheDentist from '../../assets/images/partner-ask-the-dentist.png'
+
+const PARTNERS = [
+  { name: 'AskThe Dentist Clinics', logo: askTheDentist },
+]
 
 export default function Sponsors() {
   return (
@@ -24,7 +29,19 @@ export default function Sponsors() {
         </Reveal>
 
         <Reveal as="div" className="flex flex-wrap gap-4">
-          {Array.from({ length: 5 }).map((_, i) => (
+          {PARTNERS.map((partner) => (
+            <div
+              className="flex-1 min-w-37.5 h-22.5 border border-line rounded-2xl flex items-center justify-center bg-white p-4 transition-[transform,box-shadow] duration-300 hover:-translate-y-0.75 hover:shadow-[0_18px_40px_-22px_rgba(0,0,0,0.25)]"
+              key={partner.name}
+            >
+              <img
+                src={partner.logo}
+                alt={partner.name}
+                className="max-w-full max-h-full object-contain"
+              />
+            </div>
+          ))}
+          {Array.from({ length: Math.max(5 - PARTNERS.length, 0) }).map((_, i) => (
             <div
               className="flex-1 min-w-37.5 h-22.5 border-[1.5px] border-dashed border-line rounded-2xl flex items-center justify-center text-ink-soft text-[0.78rem] font-bold uppercase tracking-wider transition-[transform,border-color,color] duration-300 hover:-translate-y-0.75 hover:border-blue hover:text-blue"
               key={i}

@@ -26,6 +26,17 @@ const TESTIMONIALS = [
     quote: '"With the privilege of serving as a volunteer for Growth Conference 1.0 & 2.0; it gave me an added advantage of gaining understanding & experience into operations of the corporate world. It served as a motivating factor to strive for growth in career, excellence & character."',
     initial: 'P', color: 'var(--color-pink)', name: 'Praise Fadare', role: 'NYSC Member, Ilorin',
   },
+  {
+    quote: [
+      '"I will never forget the encounter I had during Growth Conference 1.0. Just last month, I was reflecting on my journey and growth so far, and my mind went straight back to Growth Conference 1.0. Before I knew it, tears started rolling down my cheeks.',
+      'Funny enough, I didn’t plan to attend that day. I was low on cash and almost gave up. But thank God He orchestrated my steps to that venue. Looking back now, I know it was divine.',
+      'That day changed me. I was truly blessed. It felt as if the entire program was tailored just for me. I walked in with questions, doubts and limitations, but I left with clarity, direction and faith. The teachings and the atmosphere planted seeds in me that I’m still growing with today.',
+      'To the Convener and the entire team: thank you for saying yes to God. Because of your obedience, lives like mine are being transformed. Because of your sacrifice, I discovered truths I’m still standing on. Because of your commitment, my perspective about growth, purpose and God’s work in me shifted completely.',
+      'My heart is full of gratitude, and my soul will not stop praying for you. I’m believing God that I’ll get the opportunity to be part of Growth Conference 3.0; not just as an attendee, but as someone who has grown, and is still growing, through your program.',
+      'Thank you for blessing me. Thank you for being vessels God used to shape my life. I’m a testimony of what God can do through one program, one team and one yes."',
+    ],
+    initial: 'A', color: 'var(--color-blue)', name: 'Anonymous', role: 'Attendee, Growth Conference 1.0',
+  },
 ]
 
 const AUTO_ADVANCE_MS = 6000
@@ -84,7 +95,13 @@ export default function Testimonials() {
             {TESTIMONIALS.map((t) => (
               <div className="flex-none w-full px-1.5" key={t.name}>
                 <div className="bg-ink text-white rounded-[22px] p-7.5 sm:p-11.5 min-h-0 sm:min-h-55 flex flex-col justify-between">
-                  <q className="text-[1.05rem] sm:text-[1.35rem] leading-[1.55] font-medium">{t.quote}</q>
+                  {Array.isArray(t.quote) ? (
+                    <blockquote className="not-italic space-y-3 text-[1rem] sm:text-[1.1rem] leading-[1.6] font-medium">
+                      {t.quote.map((para, pi) => <p key={pi}>{para}</p>)}
+                    </blockquote>
+                  ) : (
+                    <q className="text-[1.05rem] sm:text-[1.35rem] leading-[1.55] font-medium">{t.quote}</q>
+                  )}
                   <div className="mt-6.5 flex items-center gap-3">
                     <div
                       className="w-9.5 h-9.5 rounded-full flex items-center justify-center font-extrabold font-display text-ink"
