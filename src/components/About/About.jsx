@@ -15,7 +15,7 @@ export default function About() {
             <p className="text-ink-soft mt-5 leading-[1.7] text-[1.05rem]">
               Growth Conference was born from a simple but urgent reality: thousands of talented
               young people possess immense potential but lack access to the knowledge, exposure,
-              mentorship, and communities needed to maximize it. Our vision is to build a global
+              mentorship and communities needed to maximize it. Our vision is to build a global
               community of ethical, innovative, influential and impact-driven young leaders
               committed to transforming society.
             </p>
