@@ -1,16 +1,33 @@
 import { useEffect, useState } from 'react'
 import Reveal from '../Reveal'
-import ibukun from '../../assets/images/ibukun-akinkuotu.png'
+import ibukun from '../../assets/images/ibukun-akinkuotu.jpg'
 import emmanuel from '../../assets/images/emmanuel-faith-2.jpeg'
-import tiwaloluwa from '../../assets/images/tiwaloluwa-adegbenro.jpg'
 import oluwaseyi from '../../assets/images/oluwaseyi-gbadebo.jpeg'
 import victor from '../../assets/images/victor-adebiyi.jpg'
+import seun from '../../assets/images/seun-fakorede.jpg'
+import adesuwa from '../../assets/images/adesuwa-olanrewaju-dada.jpg'
 
 const SPEAKERS = [
   {
+    name: 'Dr. Seun Fakorede',
+    role: 'Executive Adviser on Youth & Sports, Oyo State | Founder, Home Advantage Africa',
+    tag: 'Keynote Speaker',
+    photo: seun,
+    photoPosition: 'top',
+    bio: [
+      'Seun Fakorede is a Nigerian public policy strategist and governance practitioner focused on youth participation, leadership development and democratic inclusion in youth-majority societies.',
+      'He currently serves as Executive Adviser on Youth and Sports to the Governor of Oyo State, where he contributes to policy development and strategic initiatives to expand opportunities for young people and strengthen youth engagement in governance.',
+      'From 2019 to 2023, he served as Commissioner for Youth and Sports in Oyo State, becoming one of the youngest cabinet members in Nigeria’s contemporary political landscape. During his tenure, he led initiatives that advanced youth empowerment, sports development and leadership opportunities across the state.',
+      'Beyond public office, Fakorede is the Founder of Home Advantage Africa, a nonprofit organisation dedicated to youth empowerment, civic engagement and social development across African communities.',
+      'His work intersects with global conversations on democratic governance and youth leadership. He is a member of the Network of Young Decision-Makers of Club de Madrid and was recognised by One Young World as Politician of the Year in 2022. He is also a recipient of the Future Awards Africa Prize for Governance.',
+      'Through public service, advocacy and thought leadership, Fakorede continues to champion youth empowerment, responsible governance and sustainable development across Africa. His emerging work explores how democratic systems can adapt to the realities of youth-majority societies, particularly across the African continent.',
+      'Outside public service, he maintains a keen interest in leadership development, public policy, global affairs and Africa’s evolving role in the international system.',
+    ],
+  },
+  {
     name: 'Ibukun Akinkuotu',
     role: 'Entertainment Lawyer | Lifestyle Creator & Influencer',
-    photo: tiwaloluwa,
+    photo: ibukun,
     bio: [
       'Ibukun Akinkuotu is an Intellectual Property and Entertainment Lawyer, award-winning lifestyle influencer and the Lead Creative at THE POSH BRAND, a media brand providing digital marketing services.',
       'With over four years of experience in the industry, Ibukun is at the intersection of law, creativity and commerce. She is widely recognized for her ability to bridge the gap between brands and their target audiences through strategic marketing, converting content and intentional brand positioning that drives visibility, sales and profit.',
@@ -49,18 +66,6 @@ const SPEAKERS = [
     ],
   },
   {
-    name: 'Tiwaloluwa Adegbenro',
-    role: 'Founder & Creative Director, TIWATHETAILOR | CEO, Eli & Augustine Limited',
-    photo: ibukun,
-    bio: [
-      'Tiwaloluwa Adegbenro is a Nigerian Creative Director, fashion entrepreneur, event producer and advocate for women’s empowerment. She is the Founder and Creative Director of TIWATHETAILOR, a luxury fashion brand recognized for its timeless craftsmanship and distinctive designs. She is also the CEO of Eli & Augustine Limited, a premium event planning and coordination company.',
-      'A graduate of Mass Communication from Bowen University, Tiwaloluwa previously built her career with organizations including Skye Bank, Guaranty Trust Bank (GTBank) and Interswitch Limited before transitioning into full-time entrepreneurship.',
-      'Inspired by the legacy of her mother, a fashion designer of over 30 years, she has established herself as one of the leading young voices in Nigeria’s fashion industry. Her event portfolio includes delivering corporate experiences for Oyo State Government and Premium Trust Bank and co-producing the 5 Alive Stadium Concert with Davido Music Worldwide (DMW).',
-      'Beyond business, Tiwaloluwa is passionate about creating opportunities for women to thrive. Through initiatives such as her International Women’s Day gathering "She Gives, She Gains," she convenes conversations that empower female entrepreneurs, creatives and emerging leaders, equipping them with practical insights, meaningful connections and the confidence to grow.',
-      'A recipient of over 30 awards and recognitions, Tiwaloluwa is widely celebrated for her contributions to fashion, entrepreneurship and creative excellence. Guided by her Christian faith and a commitment to excellence, she continues to inspire the next generation of entrepreneurs while proudly showcasing the creative potential of Ibadan on both the national and international stage.',
-    ],
-  },
-  {
     name: 'Oluwaseyi Gbadebo',
     role: 'Founder, Konkéré Designs',
     photo: oluwaseyi,
@@ -80,6 +85,20 @@ const SPEAKERS = [
       'Victor Adebiyi is a Real Estate Consultant and digital content creator with a proven track record in the Nigerian property market. With years of hands-on experience, he has successfully closed hundreds of millions of naira in real estate transactions — helping individuals, families and investors secure valuable property assets. His expertise spans property marketing, client advisory, investment guidance and sales strategy. Victor’s deep market knowledge, sharp negotiation skills and client-first approach have made him a trusted name among property buyers and investors alike. He is committed to helping clients make informed decisions that align with their financial goals.',
       'Beyond real estate, Victor is a widely recognised content creator with over 200,000 followers across social media. He is known for his humorous, relatable content that blends entertainment with real insights on everyday life, business and the property market. His ability to connect authentically with people has built him a large, engaged audience across multiple platforms.',
       'This dual presence as a high-performing real estate professional and an influential digital voice sets Victor apart. He leverages both worlds to educate, entertain and inspire a diverse audience, while continuing to drive meaningful results in property sales.',
+    ],
+  },
+  {
+    name: 'Adesuwa Olanrewaju-Dada',
+    role: 'Founder, DWS Events',
+    photo: adesuwa,
+    photoPosition: 'top',
+    bio: [
+      'Adesuwa Olanrewaju-Dada is a Nigerian-born event entrepreneur, project manager and industry builder with over 17 years of experience across event production, planning, coordination and event technology. As the Founder and CEO of DWS Events, she curates exceptional experiences for leading brands and discerning clients, backed by a reputation for precision, creativity and flawless execution.',
+      'Adesuwa is the founder of the Wedding Conversation Café, an intimate platform for honest, strategic conversations among event professionals, and Save The Events Industry (STEI), a community hub dedicated to educating and elevating vendors and hosts across Nigeria’s events ecosystem. Through DWS Events Academy, her training initiative focused on equipping women and girls with the business skills to thrive in the events industry, she secured a formal partnership with Google to train event professionals on digital and business tools.',
+      'Her project credentials are exceptional. She served as Project Manager on the Dano World Milk Day activation that earned a Guinness World Record, led the production team for the Naira Life Conference, the largest financial event in Nigeria, and produced TechCabal’s Moonshot Mixer, a flagship event at the intersection of tech and innovation. Her client portfolio spans corporate brands, leading institutions and prominent individuals including Titi Akinsanmi and Yetty Williams.',
+      'As the former Country and Sub-Saharan Africa Coordinator for Google Arts & Culture, she led landmark digital cultural initiatives with institutions including Terra Kulture, the African Artists Foundation, Lagos Fashion Week and the Nigerian Tourism Development Corporation. She also trained government officials across Nigeria and Sub-Saharan Africa in digital collaboration and Google tools, merging technology, culture and capacity building in a way few others have.',
+      'A Cherie Blair Foundation alumna in partnership with Lagos Business School, and a winner of the Female Entrepreneur of the Year Award, Adesuwa has been featured across leading national media. She is a minister, trainer, mentor, speaker and a proud wife and mother of two.',
+      'Everywhere she shows up, standards rise.',
     ],
   },
 ]
@@ -120,11 +139,19 @@ export default function Speakers() {
               onClick={() => setActive(i)}
               className="group text-left bg-white border border-line rounded-2xl p-5.5 transition-[transform,box-shadow] duration-300 hover:-translate-y-0.75 hover:shadow-[0_18px_40px_-22px_rgba(0,0,0,0.25)] cursor-pointer"
             >
-              <img
-                src={speaker.photo}
-                alt={speaker.name}
-                className="w-full aspect-square object-cover rounded-xl mb-4"
-              />
+              <div className="relative mb-4">
+                <img
+                  src={speaker.photo}
+                  alt={speaker.name}
+                  style={{ objectPosition: speaker.photoPosition || 'center' }}
+                  className="w-full aspect-square object-cover rounded-xl"
+                />
+                {speaker.tag && (
+                  <span className="absolute top-2.5 left-2.5 bg-gold text-ink text-[0.68rem] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full">
+                    {speaker.tag}
+                  </span>
+                )}
+              </div>
               <h4 className="text-[0.95rem] font-extrabold">{speaker.name}</h4>
               <span className="text-[0.78rem] text-ink-soft block mt-1">{speaker.role}</span>
               <span className="inline-block mt-3 text-[0.78rem] font-bold text-blue">
@@ -156,8 +183,14 @@ export default function Speakers() {
             <img
               src={SPEAKERS[active].photo}
               alt={SPEAKERS[active].name}
+              style={{ objectPosition: SPEAKERS[active].photoPosition || 'center' }}
               className="w-24 h-24 rounded-full object-cover mb-4.5"
             />
+            {SPEAKERS[active].tag && (
+              <span className="inline-block mb-2 bg-gold text-ink text-[0.68rem] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full">
+                {SPEAKERS[active].tag}
+              </span>
+            )}
             <h3 className="font-sans font-extrabold text-[1.25rem] normal-case">
               {SPEAKERS[active].name}
             </h3>

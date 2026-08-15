@@ -6,7 +6,7 @@ export default function Location() {
       <div className="wrap">
         <Reveal as="div" className="section-head">
           <span className="eyebrow">Where to find us</span>
-          <h2>We've got the room. You've got a place in it.</h2>
+          <h2>The room is ready, are you?</h2>
         </Reveal>
 
         <Reveal as="div" className="grid grid-cols-1 tab:grid-cols-2 gap-10 items-stretch">

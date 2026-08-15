@@ -1,5 +1,6 @@
 import Nav from './components/Nav/Nav'
 import Hero from './components/Hero/Hero'
+import PersonalizedDP from './components/PersonalizedDP/PersonalizedDP'
 import Stats from './components/Stats/Stats'
 import About from './components/About/About'
 import WhyAttend from './components/WhyAttend/WhyAttend'
@@ -20,6 +21,7 @@ export default function App() {
     <>
       <Nav />
       <Hero />
+      <PersonalizedDP />
       <Stats />
       <About />
       <WhyAttend />
