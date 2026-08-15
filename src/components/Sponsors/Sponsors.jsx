@@ -1,8 +1,10 @@
 import Reveal from '../Reveal'
 import askTheDentist from '../../assets/images/partner-ask-the-dentist.png'
+import dexterEdge from '../../assets/images/partner-dexteredge.png'
 
 const PARTNERS = [
   { name: 'AskThe Dentist Clinics', logo: askTheDentist },
+  { name: 'DexterEdge Consult', logo: dexterEdge },
 ]
 
 export default function Sponsors() {

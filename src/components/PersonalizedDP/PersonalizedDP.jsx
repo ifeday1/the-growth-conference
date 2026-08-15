@@ -10,7 +10,7 @@ export default function PersonalizedDP() {
             <img
               src={sample}
               alt="Sample personalized 'I will be attending Growth Conference' design"
-              className="w-full aspect-[1400/1913] object-cover rounded-2xl"
+              className="w-full aspect-1400/1680 object-cover rounded-2xl"
             />
           </Reveal>
 

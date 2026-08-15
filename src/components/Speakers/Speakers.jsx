@@ -10,7 +10,7 @@ import adesuwa from '../../assets/images/adesuwa-olanrewaju-dada.jpg'
 const SPEAKERS = [
   {
     name: 'Dr. Seun Fakorede',
-    role: 'Executive Adviser on Youth & Sports, Oyo State | Founder, Home Advantage Africa',
+    role: 'Executive Adviser to the Governor on Youth & Sports, Oyo State | Founder, Home Advantage Africa',
     tag: 'Keynote Speaker',
     photo: seun,
     photoPosition: 'top',
