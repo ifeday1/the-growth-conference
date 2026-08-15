@@ -36,7 +36,7 @@ export default function Location() {
               for verification and check-in.
             </p>
             <a
-              href="https://tix.africa/discover/growthconference"
+              href="https://live.provinear.com/e/growth-conference-3-0/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline self-start"

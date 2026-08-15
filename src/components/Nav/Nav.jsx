@@ -66,7 +66,7 @@ export default function Nav() {
             ))}
           </nav>
           <a
-            href="https://tix.africa/discover/growthconference"
+            href="https://live.provinear.com/e/growth-conference-3-0/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary hidden nav:inline-flex whitespace-nowrap"
@@ -120,7 +120,7 @@ export default function Nav() {
         <div className="flex items-center justify-between gap-5 flex-col-reverse items-stretch xs:flex-row xs:items-center">
           <div className="slashes self-center xs:self-auto"><span></span><span></span><span></span></div>
           <a
-            href="https://tix.africa/discover/growthconference"
+            href="https://live.provinear.com/e/growth-conference-3-0/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-blue flex-1"

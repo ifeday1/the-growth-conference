@@ -33,7 +33,7 @@ export default function Hero() {
 
         <div className='flex gap-4 flex-wrap mb-14 flex-col items-stretch xs:flex-row xs:items-center [&_.btn]:text-[0.76rem] [&_.btn]:py-[13px] [&_.btn]:px-5 sm:[&_.btn]:text-[0.85rem] sm:[&_.btn]:py-3.5 sm:[&_.btn]:px-[26px] [&_.btn]:w-full xs:[&_.btn]:w-auto'>
           <a
-            href='https://tix.africa/discover/growthconference'
+            href='https://live.provinear.com/e/growth-conference-3-0/'
             target='_blank'
             rel='noopener noreferrer'
             className='btn btn-light'
