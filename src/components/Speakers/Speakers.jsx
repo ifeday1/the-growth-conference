@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import Reveal from '../Reveal'
 import ibukun from '../../assets/images/ibukun-akinkuotu.jpg'
-import emmanuel from '../../assets/images/emmanuel-faith-2.jpeg'
+import emmanuel from '../../assets/images/emmanuel-faith-3.jpeg'
 import oluwaseyi from '../../assets/images/oluwaseyi-gbadebo.jpeg'
 import victor from '../../assets/images/victor-adebiyi.jpg'
 import seun from '../../assets/images/seun-fakorede.jpg'
@@ -69,6 +69,7 @@ const SPEAKERS = [
     name: 'Oluwaseyi Gbadebo',
     role: 'Founder, Konkéré Designs',
     photo: oluwaseyi,
+    photoPosition: 'top',
     bio: [
       'Oluwaseyi Gbadebo is a dynamic Artist and Creative Entrepreneur with over 15 years of experience shaping Nigeria’s visual and design culture. He is the visionary founder of BZL Crew, Nigeria’s leading mural company, known for executing the largest mural project ever done in the country (TANKE Bridge, Ilorin, Kwara State) — a bold statement of scale, collaboration and artistic excellence.',
       'In 2021, he launched Konkéré Designs, Nigeria’s foremost sustainable concrete furniture brand, blending innovation, aesthetics and environmental consciousness. Through his work, Oluwaseyi is redefining how art intersects with public spaces, sustainability and modern African design.',
